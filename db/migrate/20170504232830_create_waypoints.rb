@@ -4,7 +4,7 @@ class CreateWaypoints < ActiveRecord::Migration[5.0]
       t.belongs_to :vehicle
       t.float :latitude
       t.float :longitude
-      t.timestamps :sent_at
+      t.datetime :sent_at
       t.timestamps
     end
   end

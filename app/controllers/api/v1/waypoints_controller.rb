@@ -13,7 +13,7 @@ class Api::V1::WaypointsController < ActionController::API
   private
 
   def waypoints_params
-    params.permit(:latitude, :longitude, :send_at, :vehicle_identifier)
+    params.permit(:latitude, :longitude, :sent_at, :vehicle_identifier)
   end
 
   def find_or_create_vechicle
