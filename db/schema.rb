@@ -40,6 +40,7 @@ ActiveRecord::Schema.define(version: 20170505160241) do
     t.integer  "vehicle_id"
     t.float    "latitude"
     t.float    "longitude"
+    t.datetime "sent_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["vehicle_id"], name: "index_waypoints_on_vehicle_id", using: :btree
