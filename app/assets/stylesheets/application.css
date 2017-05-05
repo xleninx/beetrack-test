@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+.map-container{
+  width: 800px;
+}
+
+#map{
+  width: 800px;
+  height: 400px;
+}
